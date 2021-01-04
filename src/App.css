@@ -1,0 +1,67 @@
+.App {}
+
+header {
+        background-color: rgb(31, 31, 105);
+        background-position: center;
+        
+        color: white;
+        /* height: 60vh; */
+        padding: 2% 5%;
+
+}
+
+header .navigation {
+        display: flex;
+        justify-content: space-between;
+}
+
+header .banner {
+     
+        width: 40vh;
+        margin: 5% 0;
+
+}
+
+header .banner h1 {
+        font-size: 4rem;
+}
+
+header .banner p {
+        opacity: 0.8;
+        line-height: 1.5;
+        letter-spacing: 1px;
+}
+
+header .banner button {
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 4rem;
+}
+
+main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 5% 4%;
+}
+
+main .item {
+        min-width: 200px;
+        flex: 0 0 20%;
+        margin: 2%;
+}
+
+main .item img {
+        width: 70%;
+        text-align: left;
+        
+}
+
+main .item h2 {
+       letter-spacing: 2px;
+       margin: 1rem 0;
+}
+main .item p{
+        opacity: 0.6;
+}
